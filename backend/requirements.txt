@@ -1,5 +1,7 @@
 
-Django==4.2
-channels==4.0
-django-cors-headers==4.0
-# For production, add channels_redis and configure CHANNEL_LAYERS accordingly
+Django>=4.2
+channels>=4.0
+daphne>=4.0
+channels-redis>=4.1
+asgiref>=3.7
+django-cors-headers>=4.0

@@ -1,6 +1,4 @@
-
 import os
 from django.core.wsgi import get_wsgi_application
-
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'speedproj.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE','speedproj.settings')
 application = get_wsgi_application()
